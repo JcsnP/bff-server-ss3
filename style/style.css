@@ -35,6 +35,14 @@ header {
     color: #FFF !important;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
+.footer-logo {
+    margin: auto 0;
+}
+
 /*test*/
 .div-test {
     background-color: red;
@@ -52,5 +60,11 @@ header {
 }
 
 .text-bold {
-    font-weight: 800;
+    font-weight: 800 !important;
+}
+
+.p-no-frame {
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
