@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;700;800&display=swap');
+
+body {
+    font-family: 'Sarabun', sans-serif !important;
+}
+
 .ss3-intro {
     display: block;
     margin: 0 auto;
@@ -9,4 +15,15 @@ header {
     background-image: url('../image/BFF-wallpaper.png');
     background-position: center;
     background-size: cover;
+}
+
+/*test*/
+.div-test {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+.read-details {
+    width: 100% !important;
 }
