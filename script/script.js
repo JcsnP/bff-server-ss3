@@ -1,4 +1,4 @@
-const date = new Date();
+let date = new Date();
 let hour = date.getHours();
 let minutes = date.getMinutes();
 const time = document.getElementById('time');

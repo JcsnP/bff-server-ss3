@@ -11,10 +11,28 @@ body {
 }
 
 header {
-    height: 50vh;
-    background-image: url('../image/BFF-wallpaper.png');
+    height: auto;
+    background-image: url('../image/BFF-wallpaper-4.png');
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    position: relative;
+}
+
+.sub-intro-title {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.get-minecraft {    
+    border: 5px solid #FFF !important;
+}
+.get-minecraft:hover {
+    border: 5px solid #FFF !important;
+    background-color: transparent !important;
+    color: #FFF !important;
 }
 
 /*test*/
@@ -31,4 +49,8 @@ header {
 .toast-img-steve {
     width: 20px;
     height: 20px;
+}
+
+.text-bold {
+    font-weight: 800;
 }
