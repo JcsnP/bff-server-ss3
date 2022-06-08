@@ -37,14 +37,14 @@
         </div>
     </section>
 
-    <section class="mt-5">
+    <section class="mt-5 bg-dark ">
         <div class="container">
-            <h3><strong>มีอะไรดีกว่าเดิม ?</strong></h3>
-            <span>นอกจากจะมีอัพเดทไอเทม ไบโอม และภูมิประเทศต่างๆทีได้จากตัวเกมมายคราฟเวอร์ชั่น 1.19 แล้ว ทางเหล่าแอดมินของ BFF Server จะทำการปรับแต่งบางอย่างเพื่อเพิ่มความสนุกให้มากกว่าเดิม โดยมีรายละเอียดเบื้องต้นดังนี้</span>
+            <h3 class="pt-4"><strong class="text-light">มีอะไรดีกว่าเดิม ?</strong></h3>
+            <span class="text-light">นอกจากจะมีอัพเดทไอเทม ไบโอม และภูมิประเทศต่างๆทีได้จากตัวเกมมายคราฟเวอร์ชั่น 1.19 แล้ว ทางเหล่าแอดมินของ BFF Server จะทำการปรับแต่งบางอย่างเพื่อเพิ่มความสนุกให้มากกว่าเดิม โดยมีรายละเอียดเบื้องต้นดังนี้</span>
             <div class="row mt-3">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6 mb-3">
                     <div class="card">
-                        <img src="" class="card-img-top" alt="server-plugins">
+                        <img src="./image/interesting-plugins.jpg" class="card-img-top img-fluid" alt="server-plugins">
                         <div class="card-body">
                             <div class="catd-title text-center"><h5><strong>มี Plugins น่าสนใจ</strong></h5></div>
                             <p class="catd-text">
@@ -53,19 +53,59 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    
+                <div class="col-sm-12 col-md-6 mb-3">
+                    <div class="card">
+                        <img src="./image/simple-voice-chat.jpg" class="card-img-top img-fluid" alt="server-plugins">
+                        <div class="card-body">
+                            <div class="catd-title text-center"><h5><strong>มี Simple Voice Chat</strong></h5></div>
+                            <p class="catd-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab veritatis tenetur ad unde veniam, minima cupiditate voluptas commodi cumque labore?
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    
+                <div class="col-sm-12 col-md-6 mb-3">
+                    <div class="card">
+                        <img src="./image/custom-crafting.webp" class="card-img-top img-fluid" alt="server-plugins">
+                        <div class="card-body">
+                            <div class="catd-title text-center"><h5><strong>มี Custom Crafting</strong></h5></div>
+                            <p class="catd-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab veritatis tenetur ad unde veniam, minima cupiditate voluptas commodi cumque labore?
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    
+                <div class="col-sm-12 col-md-6 mb-3">
+                    <div class="card">
+                        <img src="./image/easy-gameplay.jpg" class="card-img-top img-fluid" alt="server-plugins">
+                        <div class="card-body">
+                            <div class="catd-title text-center"><h5><strong>มีการออกแบบให้เล่นง่ายและสนุก</strong></h5></div>
+                            <p class="catd-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab veritatis tenetur ad unde veniam, minima cupiditate voluptas commodi cumque labore?
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!--TOAST-->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="./image/steve-head.jpg" class="rounded me-2 toast-img-steve" alt="toast-steve-head" />
+                <strong class="me-auto">ผู้พัฒนา</strong>
+                <small id="time">...</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                สวัสดี, พร้อมเล่นหรือยัง ???
+            </div>
+        </div>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>

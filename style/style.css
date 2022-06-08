@@ -27,3 +27,8 @@ header {
 .read-details {
     width: 100% !important;
 }
+
+.toast-img-steve {
+    width: 20px;
+    height: 20px;
+}
