@@ -1,0 +1,12 @@
+.ss3-intro {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    height: 50vh;
+    background-image: url('../image/BFF-wallpaper.png');
+    background-position: center;
+    background-size: cover;
+}
