@@ -68,3 +68,7 @@ header {
     padding: 0 !important;
     margin: 0 !important;
 }
+
+label.software-checked {
+    width: 100% !important;
+}

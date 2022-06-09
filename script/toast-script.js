@@ -1,6 +1,6 @@
 let date = new Date();
 let hour = date.getHours();
-let minutes = date.getMinutes();
+let minutes = (date.getMinutes() < 10) ? "0"+date.getMinutes() : date.getMinutes();
 const time = document.getElementById('time');
 
 setTimeout(() => {
