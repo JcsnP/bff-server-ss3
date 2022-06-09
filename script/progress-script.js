@@ -8,7 +8,6 @@ function onChange() {
     let fabric = document.getElementById('fabric-was-install').checked;
 
     let currentProgress = ((minecraft + optifine + fabric) * eachCheckBox);
-    console.log(currentProgress);
     progressBar.style.width = currentProgress + "%";
-    progressBar.innerHTML = Math.floor(currentProgress);
+    progressBar.innerHTML = (Math.floor(currentProgress === 100)) ? "ยินดีด้วย คุณพร้อมที่จะเล่นแล้ว" : Math.floor(currentProgress) + " %";
 }
